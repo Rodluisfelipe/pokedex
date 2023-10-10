@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="field is-grouped">
+        <p class="control is-expanded">
+          <input class="input" type="text" placeholder="Find a repository" id="buscador">
+        </p>
+        <p class="control">
+          <a class="button is-info" id="searchb">
+            Search
+          </a>
+        </p>
+      </div>
+      <div class="container">
+        <div class="card">
+            <div class="card-image" id="imagenp">
+              <figure class="image is-4by3">
+                <img src="" id="image" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48" id="figuremin">
+                    
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4" id="nombrepokemon"></p>
+                  <p class="subtitle is-6" id="nameCard"></p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                <a href="#">#css</a> <a href="#">#responsive</a>
+                <br>
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+</body>
+</html>
